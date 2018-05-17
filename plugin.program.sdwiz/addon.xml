@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.sdwiz" name="[COLOR steelblue]S[COLOR red]tream [COLOR steelblue]D[COLOR red]igital[/COLOR]" version="42.1" provider-name="[COLOR orangered]Mason B[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR steelblue]S[COLOR red]tream [COLOR steelblue]D[COLOR red]igital[/COLOR]</summary>
+    <description lang="en">This wizard grants access to our custom builds, apks and more.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
